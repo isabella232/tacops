@@ -52,7 +52,7 @@ home = "Home"
 
 # Meta data
 description = "TacOps es la primer conferencia en México enfocada en explorar herramientas y prácticas para gestionar infraestructura y operaciones de cómputo de forma ágil y eficiente para brindar servicios digitales con alta confiabilidad."
-images = ["images/card-2023.jpg"]
+images = ["images/card-2023p.jpg"]
 twitter_user = "@revistasg"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
