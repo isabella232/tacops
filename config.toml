@@ -6,7 +6,7 @@ title = "TacOps"
 enableRobotsTXT = true
 RemovePathAccents = true
 
-googleAnalytics = ""
+googleAnalytics = "G-K20H0F64MM"
 
 theme = "tacops"
 # post pagination
