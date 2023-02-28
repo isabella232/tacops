@@ -14,7 +14,6 @@
       {{ with .meta }}<h4>{{ . }}</h3>{{ end }}
     </div>
 
-    <script src="//embed.typeform.com/next/embed.js"></script>
     {{ if .button1.enable }}
     {{ with .button1 }}
     <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner1 mt-3 ml-4">{{ .label }}</a>
