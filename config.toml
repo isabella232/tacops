@@ -1,0 +1,136 @@
+
+######################## default configuration ####################
+baseURL = "https://sg.com.mx/tacops/"
+publishDir = "public/tacops"
+title = "TacOps"
+enableRobotsTXT = true
+RemovePathAccents = true
+
+googleAnalytics = ""
+
+theme = "tacops"
+# post pagination
+paginate = "10"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+speaker = "speakers"
+
+# output
+[outputs]
+home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+############################## navigation ###############################
+[menu]
+
+
+  [[menu.main]]
+  name = "Acerca de"
+  URL = "about"
+  weight = 1
+
+
+  [[menu.main]]
+  name = "Charlas propuestas"
+  URL = "sessions/2023"
+  weight = 2
+
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/tacops-logo.svg"
+home = "Home"
+
+# Meta data
+description = "TacOps es la primer conferencia en México enfocada en explorar herramientas y prácticas para gestionar infraestructura y operaciones de cómputo de forma ágil y eficiente para brindar servicios digitales con alta confiabilidad."
+image = "images/card-2023mx.jpg"
+images = ["images/card-2023mx.jpg"]
+twitter_user = "@revistasg"
+email = "eventos@sg.com.mx"
+author = "Software Guru"
+disclaimer = ""
+
+start_date = "2023-07-13T8:30-05:00"
+end_date = "2023-07-13T19:00-05:00"
+
+[params.venue]
+name = "Hotel Bel Air Unique Mexico City WTC"
+street = "Dakota 95, Col. Nápoles"
+city = "Ciudad de México"
+region = "CDMX"
+zipcode = "03810"
+country = "Mexico"
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "BOLETOS"
+link = "/dataday/tickets"
+
+
+############################# social icon ############################
+[[params.social]]
+icon = "fab fa-twitter"
+link = "https://twitter.com/RevistaSG"
+
+[[params.social]]
+icon = "fab fa-youtube"
+link = "https://www.youtube.com/c/softwareguru"
+
+[[params.social]]
+icon = "fab fa-linkedin"
+link = "https://www.linkedin.com/company/softwareguru"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:tacops@sg.com.mx"
+
+[[params.footer_resources]]
+name = "Code of Conduct"
+link = "coc"
+
+[[params.footer_resources]]
+name = "Privacy policy"
+link = "privacy"
+
+[[params.footer_resources]]
+name = "Call for papers"
+link = "https://convoca.dev/sreconfmx-2023/"
+
+[[params.footer_resources]]
+name = "Prospectus"
+link = "https://docs.google.com/presentation/d/1uJamSY5aK47RU0bBS-LlkVgY9T2P5ZZPJU1xg02A8ZE/edit?usp=sharing"
+
+
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+
+[[params.plugins.css]]
+link = "https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
+
+
+# JS Plugins
+[[params.plugins.js]]
+link = "https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+
+[[params.plugins.js]]
+link="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/2e09285ae6.js"
+
+[[params.plugins.js]]
+link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
+
