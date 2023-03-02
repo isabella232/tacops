@@ -2,7 +2,7 @@
 title: "Tickets"
 date: 2023-01-30T17:11:02-06:00
 description: "Adquiere tus boletos para Data Day, el congreso líder para profesionistas de datos."
-draft: false
+draft: true
 aliases: 
  - /tickets
 ---

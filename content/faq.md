@@ -3,6 +3,7 @@ title: Preguntas Frecuentes
 date: 2019-09-10T07:51:25.000+00:00
 url: /faq
 image: /images/uploads/informacion.png
+draft: true
 ---
 
 #### ¿Data Day México será presencial o en línea?
